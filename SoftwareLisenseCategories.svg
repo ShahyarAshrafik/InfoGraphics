@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%" viewBox="-27 -20 875 700">
+ <title>Software Categories expanded</title>
+ <desc>Euler diagram of software categories by CMG Lee.</desc>
+ <style type="text/css">
+.main { font-family:Helvetica,Arial,sans-serif; font-size:40px; text-anchor:middle; fill:#000000; stroke:#000000; }
+text  { stroke:none; pointer-events:none; }
+ </style>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g class="main">
+  <rect x="0"   y="0"   width="400" height="600" rx="9" ry="9" fill="#cccc00"/>
+  <rect x="20"  y="60"  width="340" height="460" rx="9" ry="9" fill="#ff9900"/>
+  <rect x="40"  y="140" width="340" height="440" rx="9" ry="9" fill="#00ffcc" fill-opacity="0.3"/>
+  <rect x="60"  y="160" width="280" height="80"  rx="9" ry="9" fill="#00ffcc"/>
+  <rect x="60"  y="260" width="280" height="80"  rx="9" ry="9" fill="#00ff00"/>
+  <rect x="60"  y="360" width="280" height="140" rx="9" ry="9" fill="#ff9966"/>
+  <rect x="80"  y="420" width="240" height="60"  rx="9" ry="9" fill="#ff6666"/>
+  <rect x="420" y="0"   width="400" height="600" rx="9" ry="9" fill="#ccccff"/>
+  <rect x="440" y="60"  width="360" height="160" rx="9" ry="9" fill="#99cccc"/>
+  <rect x="440" y="220" width="360" height="360" rx="9" ry="9" fill="#9999ff"/>
+  <rect x="480" y="140" width="280" height="120" rx="9" ry="9" fill="#00cccc" fill-opacity="0.3"/>
+  <rect x="100" y="120" width="680" height="540" rx="20" ry="20" fill="#ffff00" fill-opacity="0.2" stroke-dasharray="9,9"/>
+  <text transform="translate(200, 30)" x="0" y="0.6ex"><tspan>FOSS software</tspan></text>
+  <text transform="translate(200, 90)" x="0" y="0.6ex"><tspan>Free software</tspan></text>
+  <text transform="translate(240,550)" x="0" y="0.6ex"><tspan>Open source</tspan></text>
+  <text transform="translate(200,200)" x="0" y="-0.1ex"><tspan>Public domain</tspan><tspan x="0" dy="2ex" font-size="30">with source</tspan></text>
+  <text transform="translate(210,300)" x="0" y="-0.1ex"><tspan>Permissive</tspan><tspan x="0" dy="1.5ex">licensing</tspan></text>
+  <text transform="translate(210,390)" x="0" y="0.6ex"><tspan>Copylefted</tspan></text>
+  <text transform="translate(210,450)" x="0" y="0.6ex"><tspan>GPLed</tspan></text>
+  <text transform="translate(620, 30)" x="0" y="0.6ex"><tspan>Proprietary software</tspan></text>
+  <text transform="translate(620, 90)" x="0" y="0.6ex"><tspan>Source available</tspan></text>
+  <text transform="translate(620,400)" x="0" y="0.6ex"><tspan>Closed</tspan></text>
+  <text transform="translate(620,180)" x="0" y="-0.1ex"><tspan>Freeware/</tspan><tspan x="0" dy="1.5ex">shareware</tspan></text>
+  <text transform="translate(450,630)" x="0" y="0.6ex"><tspan>Free download</tspan></text>
+ </g>
+</svg>
