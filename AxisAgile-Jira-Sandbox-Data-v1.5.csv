@@ -1,0 +1,96 @@
+Summary,Issue id,Parent id,Issue Type,Status,Fix versions,Description,Epic Color,Epic Link,Epic Name,Epic Status,Story Points,Label,Attachment
+Home page for website,20441,,Epic,To Do,,,ghx-label-2,,Signup Page,To Do,,axisagile-sample-data,
+Manage accounts of car owners and car renters,20442,,Epic,To Do,,,ghx-label-4,,Account Management,To Do,,axisagile-sample-data,
+"Manage rental listing - creating, updating, previewing",20443,,Epic,To Do,,,ghx-label-6,,Rental Listing,To Do,,axisagile-sample-data,
+"Manage bookings - payment, confirmation, amending",20444,,Epic,To Do,,,ghx-label-13,,Booking,To Do,,axisagile-sample-data,
+Reporting required for site optimisation and marketing,20445,,Epic,To Do,,,ghx-label-1,,Reporting,To Do,,axisagile-sample-data,
+Initial Signup Page,20446,,Story,To Do,Version 1,"As a person looking for a very short term rental vehicle, or a vehicle owner looking to rent out their car I want to find out more about the 1 on 1 Car Rentals website, how the site works and how I can sign up. 
+
+Acceptance criteria:
+
+* Provide short description of 1-1 Car Rentals emphasising the value proposition to Car Owners and Car Renters. 
+* Page has an image with a Call To Action (CTA) button
+* CTA button opens up a section on page that allows for entry of details
+* Details to include first name, last name, email address entered twice and how they found out about site 
+- No need to have CAPTCHA as not expected that machines will bother with signing up to our mailing list 
+- How they found out about the site to include following options: google, Friend, Wired, Gizmodo Australia, Blog, SMH, [News.com.au|http://News.com.au]",,Signup Page,,,8,axisagile-sample-data,https://axisagileapps.com/wp-content/uploads/2021/09/sampledata-wireframe-attachment.png
+Register with 1 on 1 Car Rentals as a Car Owner,20447,,Story,To Do,Version 1,"As a Car Owner I want to register for 1 on 1 Car Rentals and rent out my car so I can make passive income while I work from home.
+
+Acceptance criteria: 
+
+* Link in the navigation menu titled “Car Owners register here"", next to a “Sign In"" link 
+* Resulting page needs to have space for text and images (from marketing and UX) 
+* Clear button with a call to action at end of page to take owner to registration page (titled “Register Here"" or ""Get Started"") 
+* Registration form includes first name, last name, email and password
+* Owner has to enter CAPTCHA correctly so that they are not a robot
+* Registration email is sent with link to confirm email address 
+* As a final step, redirect to ‘List car for rent page’",,Account Management,,,13,axisagile-sample-data,
+Register with 1 on 1 Car Rentals as a Car Renter,20448,,Story,To Do,Version 1,"As a Car Renter I want to register for 1-1 Car Rentals so that I can find a car that is within a closer proximity of my location, and I can rent it for a short period of time.
+
+Acceptance criteria: 
+
+* Link in the navigation menu titled “Register here"", next to a “Sign In"" link 
+* Resulting page needs to have space for text and images (from marketing and UX) 
+* Clear button with a call to action at end of page to take renter to registration page (titled “Register Here"" or ""Get Started"") 
+* Registration form includes first name, last name, email and password
+* Renter has to enter CAPTCHA correctly so that they are not a robot
+* Registration email is sent with link to confirm email address 
+* As a final step, redirect renter to the ‘Search for a car’ page",,Account Management,,,13,axisagile-sample-data,
+Login to account,20449,,Story,To Do,Version 1,"As a 1 on 1 Car Rentals member I want to sign in using my registered credentials so that I can take advantage of the sites features.
+
+Acceptance criteria: 
+
+* Navigation menu has a """"Sign In"""" link or similar which takes the owner to the """"Sign In"""" page 
+* If use enters incorrect email address and password combination, error message appears 
+* Page has a """"Forget Password"""" link which takes the owner to a """"Forget Password"""" page ""
+I want to sign in using my registered credentials 
+So that I can take advantage of the sites features
+
+Acceptance criteria: 
+
+* Navigation menu has a ""Sign In"" link or similar which takes the owner to the ""Sign In"" page 
+* If use enters incorrect email address and password combination, error message appears 
+* Page has a ""Forget Password"" link which takes the owner to a ""Forget Password"" page ",,Signup Page,,,8,axisagile-sample-data,
+Forgotten Password,20450,,Story,To Do,Version 1,"As a 1 on 1 Car Rentals member who has forgotten their password I want to reset my password so that I can gain access to member only features again.
+
+Acceptance Criteria:
+
+* Provide member with field to enter email address
+* A password reset email is sent if it is a valid email address
+* Password reset email expires after 48 hours 
+* Password reset email has unique ID""
+
+I want to reset my password
+
+So that I can gain access to member only features again.
+
+* Provide member with field to enter email address
+* A password reset email is sent if it is a valid email address
+* Password reset email expires after 48 hours 
+* Password reset email has unique ID",,Signup Page,,,3,axisagile-sample-data,
+Edit Profile,20451,,Story,To Do,Version 1,,,Account Management,,,5,axisagile-sample-data,
+List car for rent,20452,,Story,To Do,Version 1,,,Rental Listing,,,20,axisagile-sample-data,
+Update car listing,20453,,Story,To Do,Version 1,,,Rental Listing,,,13,axisagile-sample-data,
+Remove car listing,20454,,Story,To Do,Version 1,,,Rental Listing,,,5,axisagile-sample-data,
+Search for a car,20455,,Story,To Do,Version 1,,,Booking,,,40,axisagile-sample-data,
+Book a car,20456,,Story,To Do,Version 1,,,Booking,,,20,axisagile-sample-data,
+Edit a booking,20457,,Story,To Do,Version 1,,,Booking,,,20,axisagile-sample-data,
+Cancel a booking,20458,,Story,To Do,Version 1,,,Booking,,,13,axisagile-sample-data,
+Favourite a car,20459,,Story,To Do,Version 2,,,Booking,,,13,axisagile-sample-data,
+Site Analytics,20460,,Story,To Do,Version 2,,,Reporting,,,40,axisagile-sample-data,
+Save credit card details,20461,,Story,To Do,Version 2,,,Account Management,,,20,axisagile-sample-data,
+Create HTML,20462,20446,Sub-task,In Progress,,,,,,,,axisagile-sample-data,
+Create CSS,20463,20446,Sub-task,In Progress,,,,,,,,axisagile-sample-data,
+Create relevant database tables,20464,20446,Sub-task,In Progress,,,,,,,,axisagile-sample-data,
+Create API for registering user details,20465,20446,Sub-task,To Do,,,,,,,,axisagile-sample-data,
+Wire up HTML form to API call,20466,20446,Sub-task,To Do,,,,,,,,axisagile-sample-data,
+Test page,20467,20446,Sub-task,To Do,,,,,,,,axisagile-sample-data,
+Review with PO,20468,20446,Sub-task,To Do,,,,,,,,axisagile-sample-data,
+Create HTML & CSS for Registration Page,20469,20447,Sub-task,To Do,,,,,,,,axisagile-sample-data,
+Add API interface,20470,20447,Sub-task,To Do,,,,,,,,axisagile-sample-data,
+Add relevant database tables,20471,20447,Sub-task,To Do,,,,,,,,axisagile-sample-data,
+Wire up HTML form to API,20472,20447,Sub-task,To Do,,,,,,,,axisagile-sample-data,
+Test,20473,20447,Sub-task,To Do,,,,,,,,axisagile-sample-data,
+Review with PO,20474,20447,Sub-task,To Do,,,,,,,,axisagile-sample-data,
+Create test cases,20475,20447,Sub-task,To Do,,,,,,,,axisagile-sample-data,
+Create test cases,20476,20446,Sub-task,Done,,,,,,,,axisagile-sample-data,
