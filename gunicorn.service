@@ -1,0 +1,20 @@
+
+[Unit]
+Description=Gunicorn daemon for isac django application
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User=sddd
+Group=www-data
+WorkingDirectory=/var/www/isac
+ExecStart=/home/sddd/.virtualenvs/isac_venv/bin/gunicorn \
+          --access-logfile - \
+          --workers 3 \
+	  --log-level debug \
+          --bind unix:/run/gunicorn.sock \
+          isac.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
+
